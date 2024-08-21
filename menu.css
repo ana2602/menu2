@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+
+body {
+    font-family: 'Big Shoulders Text', cursive;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 110px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.menu h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 50px;
+    font-family: monospace;
+    font-size: 43px;
+}
+
+.menu-item {
+    position: relative;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    margin-bottom: 35px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 700px;
+    height: 300px;
+    margin-left: -65px;
+}
+
+.menu-item:hover {
+    background-color: #ededed;
+}
+
+.menu-item img {
+    width: 180px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.menu-item h2 {
+    position: absolute;
+    top: 10px;
+    left: 220px;
+    margin: 0;
+    color: #333;
+    font-size: 19px;
+    font-family: 'Big Shoulders Text', cursive;
+    z-index: 2;
+}
+
+.menu-item .description {
+    position: absolute;
+    top: 50px;
+    left: 220px;
+    margin: 0;
+    color: #666;
+    font-size: 16px;
+    text-align: left;
+    display: none;
+    z-index: 1;
+}
+
+.menu-item.active .description {
+    display: block;
+}
+
+.menu-item p{
+    font-family: 'Big Shoulders Text', cursive;
+    text-align: justify;
+}
+
+.intro-text {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px; 
+}
