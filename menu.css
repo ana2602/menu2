@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Big Shoulders Text', cursive;
-    background-color: #f7f7f7;
+    background-color: #dddad8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@ body {
 }
 
 .menu {
-    background-color: #fff;
+    background-color: #cacaca;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 110px;
@@ -23,7 +23,10 @@ body {
     color: #333;
     margin-bottom: 50px;
     font-family: monospace;
-    font-size: 43px;
+    font-size: 47px;
+    margin-top: 10px;  
+    top: -40px; 
+    position: relative;
 }
 
 .menu-item {
@@ -35,15 +38,10 @@ body {
     background-color: #f4f4f4;
     border-radius: 10px;
     box-shadow: 0 7px 7px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
     transition: background-color 0.3s ease;
     width: 700px;
     height: 300px;
     margin-left: -65px;
-}
-
-.menu-item:hover {
-    background-color: #ededed;
 }
 
 .menu-item img {
@@ -56,11 +54,11 @@ body {
 
 .menu-item h2 {
     position: absolute;
-    top: 10px;
+    top: 45px;
     left: 220px;
     margin: 0;
-    color: #333;
-    font-size: 19px;
+    color: #ff6600;
+    font-size: 29px;
     font-family: 'Big Shoulders Text', cursive;
     z-index: 2;
 }
@@ -84,6 +82,10 @@ body {
 .menu-item p{
     font-family: 'Big Shoulders Text', cursive;
     text-align: justify;
+    margin-right: 20px;
+    margin-left: 5px;
+    font-size: 19px;
+    font-weight: bold;
 }
 
 .intro-text {
@@ -91,4 +93,25 @@ body {
     color: #666;
     font-size: 18px;
     margin-bottom: 20px; 
+}
+
+
+
+.add-to-cart {
+    background-color: #303030; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
+    position: absolute; 
+    bottom: 20px; 
+    right: 20px; 
+}
+
+.add-to-cart:hover {
+    background-color: #000000; 
 }
