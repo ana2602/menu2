@@ -16,6 +16,7 @@ body {
     padding: 110px;
     max-width: 600px;
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .menu h1 {
@@ -83,9 +84,13 @@ body {
     font-family: 'Big Shoulders Text', cursive;
     text-align: justify;
     margin-right: 20px;
-    margin-left: 5px;
-    font-size: 19px;
+    left: 5px;
+    font-size: 22px;
     font-weight: bold;
+    position: absolute;
+    top: 119px;
+    left: 220px;
+    right: 20px;
 }
 
 .intro-text {
@@ -121,4 +126,40 @@ body {
     background-color: #c24e00; 
 }
 
+.menu-item li {
+    position: absolute;
+    top: 93px; 
+    left: 220px; 
+    margin: 0;
+    color: #333;
+    font-size: 21px;
+    font-family: 'Big Shoulders Text', cursive;
+    list-style: none;
+    font-weight: 800;
+}
 
+.menu a{
+    font-size: 25px;
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: auto;
+    padding: 10px 20px;
+}
+
+
+section {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    
+}
+
+.voltar a, .proxima a {
+    font-size: 25px;
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px; 
+}
